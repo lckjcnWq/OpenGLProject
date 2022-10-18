@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.theswitchbot.openglproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OpenGlProject">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main1.Main1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main2.Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main3.Main3Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.main3.Main4Activity" />
+        <activity
+            android:name=".ui.main5.Main5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main6.Main6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main7.Main7Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main8.Main8Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main9.Main9Activity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
