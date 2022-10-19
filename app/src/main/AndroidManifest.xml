@@ -44,6 +44,9 @@
         <activity
             android:name=".ui.main9.Main9Activity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main10.Main10Activity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
