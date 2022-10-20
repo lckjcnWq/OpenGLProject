@@ -1,4 +1,4 @@
-package com.theswitchbot.openglproject.utils
+package com.theswitchbot.openglproject.helper
 
 import kotlin.math.tan
 

@@ -11,7 +11,7 @@ import com.theswitchbot.openglproject.bean.Table
 import com.theswitchbot.openglproject.helper.TextureHelper
 import com.theswitchbot.openglproject.programs.ColorShaderProgram
 import com.theswitchbot.openglproject.programs.TextureShaderProgram
-import com.theswitchbot.openglproject.utils.MatrixHelper
+import com.theswitchbot.openglproject.helper.MatrixHelper
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10
 

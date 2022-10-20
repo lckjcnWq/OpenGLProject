@@ -11,7 +11,7 @@ import com.theswitchbot.openglproject.helper.TextureHelper
 import com.theswitchbot.openglproject.three.bean.ParticleShooter
 import com.theswitchbot.openglproject.three.bean.ParticleSystem
 import com.theswitchbot.openglproject.three.programs.ParticleShaderProgram
-import com.theswitchbot.openglproject.utils.MatrixHelper
+import com.theswitchbot.openglproject.helper.MatrixHelper
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10
 

@@ -2,7 +2,7 @@ package com.theswitchbot.openglproject.programs
 
 import android.content.Context
 import android.opengl.GLES30
-import com.theswitchbot.openglproject.utils.ShaderHelper
+import com.theswitchbot.openglproject.helper.ShaderHelper
 import com.theswitchbot.openglproject.utils.TextResourceReader.readTextFileFromResource
 
 /**  1.模型矩阵

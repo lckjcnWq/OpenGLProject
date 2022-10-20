@@ -4,7 +4,7 @@ import android.opengl.GLES30
 import android.opengl.GLSurfaceView
 import com.blankj.utilcode.util.ResourceUtils
 import com.theswitchbot.openglproject.R
-import com.theswitchbot.openglproject.utils.ShaderHelper
+import com.theswitchbot.openglproject.helper.ShaderHelper
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.nio.FloatBuffer
