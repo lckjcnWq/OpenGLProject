@@ -1,69 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnStart1"
+    <LinearLayout
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="准备开始" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnStart2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="定义定点和着色器" />
+        <Button
+            android:id="@+id/btnStart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="准备开始" />
 
-    <Button
-        android:id="@+id/btnStart3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="编译着色器" />
+        <Button
+            android:id="@+id/btnStart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="定义定点和着色器" />
 
-    <Button
-        android:id="@+id/btnStart4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="调整屏幕宽高比" />
+        <Button
+            android:id="@+id/btnStart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编译着色器" />
 
-    <Button
-        android:id="@+id/btnStart5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="三维" />
+        <Button
+            android:id="@+id/btnStart4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调整屏幕宽高比" />
 
-    <Button
-        android:id="@+id/btnStart6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="三维加载纹理" />
+        <Button
+            android:id="@+id/btnStart5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三维" />
 
-    <Button
-        android:id="@+id/btnStart7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="构建简单物体" />
+        <Button
+            android:id="@+id/btnStart6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三维加载纹理" />
 
-    <Button
-        android:id="@+id/btnStart8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="用粒子增加趣味" />
+        <Button
+            android:id="@+id/btnStart7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="构建简单物体" />
 
-    <Button
-        android:id="@+id/btnStart9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="增加天空盒" />
+        <Button
+            android:id="@+id/btnStart8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用粒子增加趣味" />
 
-    <Button
-        android:id="@+id/btnStart10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="增加地形" />
-</LinearLayout>
+        <Button
+            android:id="@+id/btnStart9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增加天空盒" />
+
+        <Button
+            android:id="@+id/btnStart10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增加地形" />
+    </LinearLayout>
+
+</RelativeLayout>
