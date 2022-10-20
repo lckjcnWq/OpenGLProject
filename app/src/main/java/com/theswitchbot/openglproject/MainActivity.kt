@@ -4,6 +4,7 @@ import android.content.Intent
 import com.theswitchbot.openglproject.common.BaseActivity
 import com.theswitchbot.openglproject.databinding.ActivityMainBinding
 import com.theswitchbot.openglproject.ui.main1.Main1Activity
+import com.theswitchbot.openglproject.ui.main10.Main10Activity
 import com.theswitchbot.openglproject.ui.main2.Main2Activity
 import com.theswitchbot.openglproject.ui.main3.Main3Activity
 import com.theswitchbot.openglproject.ui.main3.Main4Activity
@@ -47,10 +48,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             startActivity(Intent(this, Main9Activity::class.java))
         }
         binding.btnStart10.setOnClickListener {
-        }
-        binding.btnStart11.setOnClickListener {
-        }
-        binding.btnStart12.setOnClickListener {
+            startActivity(Intent(this, Main10Activity::class.java))
         }
     }
 

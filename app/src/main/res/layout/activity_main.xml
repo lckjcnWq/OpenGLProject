@@ -48,30 +48,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="构建简单物体" />
+
     <Button
         android:id="@+id/btnStart8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="用粒子增加趣味" />
+
     <Button
         android:id="@+id/btnStart9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="增加天空盒" />
+
     <Button
         android:id="@+id/btnStart10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="增加地形" />
-    <Button
-        android:id="@+id/btnStart11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="点亮世界" />
-    <Button
-        android:id="@+id/btnStart12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="创建动态壁纸" />
-
 </LinearLayout>

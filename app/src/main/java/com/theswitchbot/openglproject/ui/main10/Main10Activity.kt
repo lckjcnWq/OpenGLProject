@@ -14,7 +14,7 @@ class Main10Activity : BaseActivity<ActivityMain1Binding>() {
 
     private fun setListener(){
         binding.glSurfaceView.setEGLContextClientVersion(3)
-        val renderer = Main9Renderer(this)
+        val renderer = Main10Renderer(this)
         binding.glSurfaceView.setRenderer(renderer)
         binding.glSurfaceView.setOnTouchListener(object : OnTouchListener {
             var previousX = 0f
